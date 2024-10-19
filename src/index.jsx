@@ -4,6 +4,7 @@ import './index.css';
 import Clock from './Clock';
 import TodoList from './Todolist';
 import UncontrolledLogin from './UncontrolledLogin';
+import FocusableInput from './FocusableInput';
 
 function Welcome() {
   return (
@@ -14,7 +15,8 @@ function Welcome() {
     </div>
     <Clock/>
     <TodoList/>
-    <UncontrolledLogin></UncontrolledLogin>
+    <UncontrolledLogin/>
+    <FocusableInput/>
     </>
   );
 }
