@@ -1,0 +1,32 @@
+.container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .todoItem {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todoItem:hover {
+    background-color: #e8e8e8;
+  }

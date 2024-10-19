@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'; 
 import Clock from './Clock';
+import TodoList from './Todolist';
 
 function Welcome() {
   return (
@@ -11,6 +12,7 @@ function Welcome() {
       <p>Welcome component.</p>
     </div>
     <Clock/>
+    <TodoList/>
     </>
   );
 }
