@@ -1,0 +1,8 @@
+.welcome {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
